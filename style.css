@@ -56,7 +56,7 @@
 
 
 
-@media screen and (max-width:1025px)
+@media screen and (max-width: 600px)
 {
     #game{
         background-image: url(rode\ background.gif);
