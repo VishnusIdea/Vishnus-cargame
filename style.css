@@ -19,7 +19,7 @@
     position: relative;
     top: 730px; 
     left: 100px;
-    background-image:  url(help.webp);
+    background-image:  url(kuttan.png);
     background-repeat: no-repeat ;
     background-size:cover;
 }
@@ -30,7 +30,7 @@
     height: 100px;
     animation: slide 1s linear infinite;
     position: relative;
-    background-image:  url(giphy.gif);
+    background-image:  url();
     background-repeat: no-repeat ;
     background-size:cover;
      min-width: 89px; 
@@ -72,7 +72,7 @@
     #character{
         
         width: 100px;
-        height: 166px;
+        height: 194px;
         position: relative;
         top: 457px; 
         left: 100px;
@@ -82,7 +82,7 @@
 
 
     #block{
-        width: 80px;
+        width: 121px;
         height: 186px;
         
         animation: slide 1s linear infinite;
