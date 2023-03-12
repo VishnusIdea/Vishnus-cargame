@@ -79,13 +79,13 @@
         background-image:  url(kuttan.png);
        
     }
-
+    
 
     #block{
         width: 121px;
         height: 186px;
         
-        animation: slide 1s linear infinite;
+        animation: slide 1.5s linear infinite;
         position: relative;
         background-image:  url(lion.png);
         background-repeat: no-repeat ;
