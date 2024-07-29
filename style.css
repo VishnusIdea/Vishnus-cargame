@@ -3,59 +3,62 @@
     padding: 0;
     margin: 0;
 }
-#game{
-    width: 320px;
-    height: 930px;
-    border: 1px solid black;
-    margin: auto;
-    box-sizing: border-box;
-    overflow: hidden;
-  
-}
-#character{
-    width: 100px;
-    height: 100px;
+  #game{
+        background-image: url(rode\ background.gif);
+        width: 384px;
+        height: 1301px;
+        border: 9px solid white;
+        margin: auto;
+        box-sizing: border-box;
+        overflow: hidden;
+      
+    }
+
+    #character{
+        
+        width: 100px;
+        height: 194px;
+        position: relative;
+        top: 457px; 
+        left: 100px;
+        background-image:  url(kuttan.png);
+       
+    }
     
-    position: relative;
-    top: 730px; 
-    left: 100px;
-    background-image:  url(kuttan.png);
-    background-repeat: no-repeat ;
-    background-size:cover;
-}
 
-
-#block{
-    width: 100px;
-    height: 100px;
-    animation: slide 1s linear infinite;
-    position: relative;
-    background-image:  url();
-    background-repeat: no-repeat ;
-    background-size:cover;
-     min-width: 89px; 
-}
-@keyframes slide{
-    0%{
-        top:-100px;
+    #block{
+        width: 121px;
+        height: 186px;
+        
+        animation: slide 1.5s linear infinite;
+        position: relative;
+        background-image:  url(lion.png);
+        background-repeat: no-repeat ;
+        background-size:cover;
+         min-width: 89px; 
     }
-    100%{
-        top:1000px;
+    
+    @keyframes slide{
+        0%{
+            top:-100px;
+        }
+        100%{
+            top:1020px;
+        }
+    }    
+    
+
+    #left{
+        width: 137px;
+        position: absolute;
+        height: 5000px;
     }
-}
-
-#left, #right{
-    width: 100px;
-    position: absolute;
-    height: 5000px;
-}
-#right{
-    left:100%;
-    animation: none;
-}
-
-
-
+    #right{
+        left:68%;
+        width: 172px;
+        position: absolute;
+        height: 5000px;
+    }
 @media screen and (max-width: 600px)
 {
     #game{
